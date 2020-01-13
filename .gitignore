@@ -1,3 +1,7 @@
 # executible files
 *.exe
 .exe
+
+# File Copies
+*copy*
+*Copy*
