@@ -23,5 +23,5 @@ return
 Send ^+B ; send CTRL + SHIFT + "B"
 return
 
-;#IfWinActive, ; work for any active windows
-;Capslock::WinMinimize,A
+#IfWinActive, ; work for any active windows
+Capslock::WinMinimize,A
